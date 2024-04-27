@@ -1,0 +1,101 @@
+/* Calculator Buttons*/
+/*Row One*/
+.Clear {
+width: 50px;
+padding: 10px;
+margin: 2px;
+}
+.Sign {
+width: 50px;
+padding: 10px;
+margin: 2px;
+}
+.Percent {
+width: 50px;
+padding: 10px;
+margin: 2px;
+}
+.Divison {
+width: 50px;
+padding: 10px;
+margin: 2px;
+}
+/*Row Two*/
+.Seven {
+width: 50px;
+padding: 10px;
+margin: 2px;
+}
+.Eight {
+width: 50px;
+padding: 10px;
+margin: 2px;
+}
+.Nine {
+width: 50px;
+padding: 10px;
+margin: 2px;
+}
+.Multiplication {
+width: 50px;
+padding: 10px;
+margin: 2px;
+}
+/*Row Three*/
+.Four {
+width: 50px;
+padding: 10px;
+margin: 2px;
+}
+.Five {
+width: 50px;
+padding: 10px;
+margin: 2px;
+}
+.Six {
+width: 50px;
+padding: 10px;
+margin: 2px;
+}
+.Minus {
+width: 50px;
+padding: 10px;
+margin: 2px;
+}
+/*Row Four*/
+.One {
+width: 50px;
+padding: 10px;
+margin: 2px;
+}
+.Two {
+width: 50px;
+padding: 10px;
+margin: 2px;
+}
+.Three {
+width: 50px;
+padding: 10px;
+margin: 2px;
+}
+.Plus {
+width: 50px;
+padding: 10px;
+margin: 2px;
+}
+/*Row Five*/
+        .Zero {
+        width: 108px;
+        padding: 10px;
+        margin: 2px;
+        }
+.Decimal {
+width: 50px;
+padding: 10px;
+margin: 2px;
+}
+.Equals {
+width: 50px;
+padding: 10px;
+margin: 2px;
+}
