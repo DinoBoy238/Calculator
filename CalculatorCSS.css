@@ -1,0 +1,223 @@
+/* Base styles */
+.CalculatorRim {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border: 5px solid whitesmoke;
+  width: 11vw;
+  margin: 5vh auto;
+  height: 38vh;
+}
+
+/* Results and inputs */
+.DisplayText {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-content: center;
+  width: 92%;
+  height: 12%;
+  margin-top: 1svh;
+  margin-bottom: .6vh;
+  color: yellow;
+  background-color: blue;
+  background-clip: content-box;
+  border-color: gray;
+  border: solid gray .35vw;
+}
+
+/* Calculator Buttons */
+/* Base button styles */
+button {
+  width: 21%;
+  min-width: 10%;
+  max-width: 30%;
+  height: auto;
+  padding: 1.1vh;
+  margin: 0.2vh;
+  box-sizing: border-box;
+  background-color: gray;
+  color: white;
+}
+
+/* Specific button styles */
+.Clear, .Sign, .Percent, .Division, 
+.Seven, .Eight, .Nine, .Multiplication, 
+.Four, .Five, .Six, .Minus, 
+.One, .Two, .Three, .Plus, 
+.Zero, .Decimal, .Equals {
+  background-color: gray;
+  color: white;
+}
+
+.Equals {
+  background-color: green;
+}
+
+/* Adjust Zero button width */
+.Zero {
+  width: 47%;
+  min-width: 36%;
+  max-width: 67%;
+}
+
+@media (max-width: 1600px) {
+  .CalculatorRim {
+    width: 10vw;
+  }
+
+  button {
+    width: 21%;
+    min-width: 10%;
+    max-width: 30%;
+    padding: 1.1vh;
+    margin: 0.2vh;
+  }
+
+  .Zero {
+    width: 47%;
+    min-width: 36%;
+    max-width: 67%;
+  }
+
+  .DisplayText {
+    width: 91%;
+    height: 12%;
+    border: solid gray .35vw;
+  }
+}
+
+@media (max-width: 1400px) {
+  .CalculatorRim {
+    width: 11.4vw;
+  }
+
+  button {
+    width: 21%;
+    min-width: 10%;
+    max-width: 30%;
+    padding: 1.1vh;
+    margin: 0.2vh;
+  }
+
+  .Zero {
+    width: 47%;
+    min-width: 36%;
+    max-width: 67%;
+  }
+
+  .DisplayText {
+    width: 94.2%;
+    height: 12%;
+    border: solid gray .35vw;
+  }
+}
+
+@media (max-width: 1200px) {
+  .CalculatorRim {
+    width: 15vw;
+  }
+
+  button {
+    width: 21%;
+    min-width: 10%;
+    max-width: 30%;
+    padding: 1.1vh;
+    margin: 0.2vh;
+  }
+
+  .Zero {
+    width: 47%;
+    min-width: 36%;
+    max-width: 67%;
+  }
+
+  .DisplayText {
+    width: 92%;
+    height: 12%;
+    border: solid gray .35vw;
+  }
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 1024px) {
+  .CalculatorRim {
+    width: 17.8vw;
+    height: 37vh;
+  }
+
+  button {
+    width: 21%;
+    min-width: 10%;
+    max-width: 30%;
+    padding: 1.1vh;
+    margin: 0.2vh;
+    color: white;
+  }
+
+  .Zero {
+    width: 47%;
+    min-width: 36%;
+    max-width: 67%;
+  }
+
+  .DisplayText {
+    width: 92%;
+    height: 12%;
+    border: solid gray .35vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .CalculatorRim {
+    width: 28.4vw;
+    height: 37vh;
+  }
+
+  button {
+    width: 21%;
+    min-width: 10%;
+    max-width: 30%;
+    padding: 1.1vh;
+    margin: 0.2vh;
+  }
+
+  .Zero {
+    width: 47%;
+    min-width: 36%;
+    max-width: 67%;
+  }
+
+  .DisplayText {
+    width: 95%;
+    height: 12%;
+    border: solid gray .35vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .CalculatorRim {
+    height: 37vh;
+    width: 42vw;
+  }
+
+  button {
+    width: 21%;
+    min-width: 10%;
+    max-width: 30%;
+    padding: 1.1vh;
+    margin: 0.2vh;
+  }
+
+  .Zero {
+    width: 47%;
+    min-width: 36%;
+    max-width: 67%;
+  }
+
+  .DisplayText {
+    width: 95%;
+    height: 12%;
+    border: solid gray .35vw;
+  }
+}

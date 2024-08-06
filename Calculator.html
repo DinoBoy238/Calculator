@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Calculator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CalculatorCSS.css">
+    </head>
+    <body style="background-color: rgba(11,14,20,255)">
+        <div class="CalculatorRim">
+            
+        <section class="Main">
+            <div id="DisplayText" class="DisplayText">0</div>
+            <Div class="RowOne">
+                <button class="Clear" onclick="Clear()">AC</button>
+                <button class="Sign" onclick="Operation('+/-')">+/-</button>
+                <button class="Percent" onclick="Operation('*')">X</button>
+                <button class="Divison" onclick="Operation('/')">&#xF7;</button>
+            </Div>
+
+            <div class="RowTwo">
+                <button class="Seven" onclick="Input('7')">7</button>
+                <button class="Eight" onclick="Input('8')">8</button>
+                <button class="Nine" onclick="Input('9')">9</button>
+                <button class="Multiplication" onclick="Operation('*')">	&times;</button>
+            </div>
+            <div class="RowThree">
+                <button class="Four" onclick="Input('4')">4</button>
+                <button class="Five" onclick="Input('5')">5</button>
+                <button class="Six" onclick="Input('6')">6</button>
+                <button class="Minus" onclick="Operation('-')">-</button>
+            </div>
+            <div class="RowFour">
+                <button class="One" onclick="Input('1')">1</button>
+                <button class="Two" onclick="Input('2')">2</button>
+                <button class="Three" onclick="Input('3')">3</button>
+                <button class="Plus" onclick="Operation('+')">+</button>
+            </div>
+            <div class="RowFive">
+                <button class="Zero" onclick="Input('0')">0</button>
+                <button class="Decimal" onclick="Input('.')">.</button>
+                <button id="test" class="Equals" onclick="Calculate()">=</button>
+            </div>
+        </section>
+        </div>
+    <script src="CalculatorJS.js"></script>
+    </body>
+</html>
